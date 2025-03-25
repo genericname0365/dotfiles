@@ -12,7 +12,6 @@ window#waybar {
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
-    border-radius: 90px;
 }
 
 window#waybar.hidden {
@@ -65,7 +64,7 @@ button:hover {
 }
 
 #workspaces button.active {
-    background-color: #64727D;
+    background-color: transparent;
 }
 
 #workspaces button.urgent {
@@ -125,7 +124,7 @@ button:hover {
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
+    color: #000000;
     background-color: @peach;
 }
 
@@ -328,4 +327,8 @@ label:focus {
 
 #privacy-item.audio-out {
     background-color: #0069d4;
+}
+#custom-notifications {
+        background-color: @peach;
+        color: #000000
 }

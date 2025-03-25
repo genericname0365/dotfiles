@@ -16,17 +16,17 @@
   alternate-normal-foreground: @foreground;
   urgent-background:           @background;
   selected-normal-foreground:  @lightbg;
-  active-foreground:           @blue;
+  active-foreground:           @peach;
   background:                  @base;
-  selected-active-background:  @blue;
+  selected-active-background:  @peach;
   active-background:           @background;
-  selected-normal-background:  @lightfg;
+  selected-normal-background:  @peach;
   alternate-normal-background: @lightbg;
   foreground:                  @text;
   selected-urgent-foreground:  @background;
   normal-foreground:           @foreground;
   alternate-urgent-foreground: @red;
-  alternate-active-foreground: @blue;
+  alternate-active-foreground: @peach;
 
 }
 element {
